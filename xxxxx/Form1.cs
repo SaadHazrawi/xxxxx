@@ -24,6 +24,7 @@ namespace xxxxx
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
             {
                 e.Handled = true;
+                MessageBox.Show("zxczxc");
             }
         }
         private void btn_Calc_Click(object sender, EventArgs e)
